@@ -4,6 +4,7 @@
 A simple and functional weather application built with Python and Streamlit, powered by the OpenWeatherMap API.
 
 🔍 Features
+
 🔎 Search weather by city name or zip code
 
 📍 Auto-detect current location (based on IP)
