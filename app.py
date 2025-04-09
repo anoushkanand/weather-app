@@ -4,8 +4,7 @@ from urllib.parse import quote_plus
 from dotenv import load_dotenv
 import os
 
-load_dotenv()
-API_KEY = os.getenv("OPENWEATHER_API_KEY")
+API_KEY = st.secrets["OPENWEATHER_API_KEY"]
 
 def get_weather_by_city(city):
     safe_city = quote_plus(city)
