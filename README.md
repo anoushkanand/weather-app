@@ -1,5 +1,6 @@
 # weather-app
 🌤 Weather App
+
 A simple and functional weather application built with Python and Streamlit, powered by the OpenWeatherMap API.
 
 🔍 Features
